@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="try.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/009cc9d22c.js" crossorigin="anonymous"></script>
+</head>
+<style>
+  .teacher {
+      display: block;
+    }
+
+    .founder {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .T1 {
+      /* border: 2px solid black; */
+      width: 30%;
+      text-align: center;
+    }
+    .T1 img {
+      text-align: center;
+    }
+
+    .T3 {
+      /* border: 2px solid black; */
+      width: 60%;
+    }
+
+    .T3 h4 {
+      color: black;
+      font-family: none;
+      text-align:justify;
+    }
+
+    .T3 p {
+      text-align: justify;
+    }
+
+    @media (max-width:577px) {
+      .founder {
+        display: block;
+      }
+
+      .T1 {
+        /* border: 2px solid black; */
+        width: 100%;
+        text-align: center;
+      }
+
+      .T3 {
+        width: 100%;
+      }
+    }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg" id="nav">
+    <!-- <a class="navbar-brand" href="try.html"><span style="font-size: 40px;font-weight: bolder;color:#17a2b8">Kid
+        Kinder</span></a> -->
+        <div class="pic">
+        <a href="try.html"><img src="./images/logo.jpg" alt="" class="img-fluid"></a>
+      </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tabout.html">About Us</a></li>
+      <li><a href="infra.html">Infrastructure</a></li>
+      <li><a href="Admission.html">Admission</a></li>
+      <li><a href="facilities.html">Facilities</a></li>
+      <li><a href="instruction.html">Instructions</a></li>
+      <li><a href="tgallery.html">Gallery </a></li>
+      <li><a href="tcontact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <i class="fa fa-bars" aria-hidden="true" style="cursor: pointer;"></i>
+    </div>
+  </nav>
+  <!-- <div id="header">
+    <div id="first">
+      <h2>Kids Education Center</h2>
+      <h1>New Approach to Kids Education</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate iusto eligendi mollitia corrupti
+        atque, fuga, officia culpa quaerat, voluptates esse nostrum? Modi ea iste deserunt, debitis natus assumenda
+        ullam.</p>
+      <button>Learn more</button>
+    </div>
+
+    <div id="second">
+      <img src="images/1.jpg" class="img-fluid">
+    </div>
+  </div> -->
+
+  <div id="header">
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./images/1.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 500px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/2.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 500px;">
+        </div>
+        <div class="carousel-item"  data-bs-interval="2000">
+          <img src="./images/3.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 500px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 500px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/5.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 500px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/6.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 500px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/7.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 500px;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- Card -->
+  <h2 class="Cardhead">Infrastructure</h2>
+  <h1 class="head1">About Infrastructure – </h1>
+  <div id="card" class="card1">
+    <div class="c1">
+      <!-- <i class="fa fa-futbol-o" aria-hidden="true"></i> -->
+      <div class="box">
+        <h2> State-of-the-Art Facilities</h2>
+        <p>Our campus is equipped with state-of-the-art facilities designed to meet the diverse needs of our students. Modern classrooms are equipped with interactive learning tools, creating an engaging atmosphere for academic pursuits. We believe that a technologically advanced environment enhances the educational experience and prepares students for the challenges of the digital age.</p>
+      </div>
+    </div>
+    <div class="c1">
+      <!-- <i class="fa fa-music" aria-hidden="true"></i> -->
+      <div class="box">
+        <h2>Science and Innovation Labs</h2>
+        <p>Encouraging a hands-on approach to learning, our science and innovation labs are equipped with cutting-edge equipment and resources. These spaces serve as incubators for curiosity, experimentation, and the development of critical thinking skills. Students have the opportunity to explore and apply theoretical knowledge in a practical and interactive manner.</p>
+      </div>
+    </div>
+    <div class="c1">
+      <!-- <i class="fa fa-paint-brush" aria-hidden="true"></i> -->
+      <div class="box">
+        <h2>Library and Resource Center</h2>
+        <p>Our extensive library and resource center is a hub for intellectual exploration. Stocked with a vast collection of books, journals, and multimedia resources, it provides students with a rich tapestry of knowledge. The library is not just a space for academic study but also a place for quiet contemplation and research.</p>
+      </div>
+    </div>
+  </div>
+  <div id="card">
+    <div class="c1">
+      <!-- <i class="fa fa-car" aria-hidden="true"></i> -->
+      <div class="box">
+        <h2>Sports and Recreation Facilities</h2>
+        <p> Physical well-being is integral to overall development, and our sports facilities are designed to promote a healthy and active lifestyle. From well-maintained sports fields to indoor facilities, we encourage students to participate in a variety of sports, fostering teamwork, discipline, and a spirit of healthy competition.</p>
+      </div>
+    </div>
+    <div class="c1">
+      <!-- <i class="fa fa-cutlery" aria-hidden="true"></i> -->
+      <div class="box">
+        <h2>Auditorium and Performing Arts Spaces</h2>
+        <p> Expression and creativity find a home in our auditorium and performing arts spaces. These venues are equipped to host a range of events, from academic presentations to cultural performances. We believe in nurturing the artistic talents of our students, providing them with platforms to showcase their creativity.</p>
+      </div>
+    </div>
+    <div class="c1">
+      <!-- <i class="fa fa-pencil" aria-hidden="true"></i> -->
+      <div class="box">
+        <h2>Safety and Security</h2>
+        <p> The well-being of our students is our top priority. We have implemented comprehensive safety and security measures to ensure a secure and nurturing environment. From well-trained security personnel to robust emergency protocols, we are dedicated to providing a safe space for all members of our community.</p>
+      </div>
+    </div>
+  </div>
+  <!-- <div id="third">
+    <div id="photo">
+      <img src="images/2.jpg">
+    </div>
+    <div id="text">
+      <span>Learn About Us--</span>
+      <h2>Best School For Students</h2>
+      <h3> Director/Principal Message</h3>
+      <p>Experience 10 Year's Math PGT Teacher 7 Year's Principal Experience</p>
+      <h4>Manju Singh  (Director/Principal)</h4>
+      <h5>MSC. (Math) BEd.</h5>
+      <div id="inner">
+        <div id="in1">
+          <img src="images/about-2.jpg" class="img-fluid">
+        </div>
+        <div id="in2">
+          <ul class="list">
+            <hr>
+            <li class="group">Lorem ipsum dolor sit amet consectetur.</li>
+            <hr>
+            <li class="group">Lorem ipsum dolor sit amet consectetur.</li>
+            <hr>
+          </ul>
+        </div>
+      </div>
+      <button id="btn1">Learn More</button>
+    </div>
+  </div>
+  <br><br>
+  <div class="four">
+    <h2>Popular Classes</h2>
+    <h1>Classes for Your Students</h1><br>
+    <div class="picdiv">
+      <div class="pic1">
+        <div class="t1"><img src="images/6.jpg" alt="" class="img-fluid"></div>
+        <div class="t2">
+          <h3>Computer Classes</h3>
+          <p> </p>
+          <hr>
+          <table class="table-bordered table">
+
+            <tr>
+              <th>Age of Kids</th>
+              <td>3-6 Years</td>
+            </tr>
+            <tr>
+              <th>Total Seats</th>
+              <td>40 Seats</td>
+            </tr>
+            <tr>
+              <th>Class Time</th>
+              <td>08:00-10:00</td>
+            </tr>
+            <tr>
+              <th>Tution Fee</th>
+              <td>$290 / Month</td>
+            </tr>
+          </table>
+        </div>
+        <button>Join Now</button><br>
+      </div>
+      <div class="pic2">
+        <div class="t1"><img src="images/3.jpg" alt="" class="img-fluid"></div>
+        <div class="t2">
+          <h3>Science and Innovation Labs:</h3>
+          <p></p>
+          <hr>
+          <table class="table-bordered table">
+
+            <tr>
+              <th>Age of Kids</th>
+              <td>3-6 Years</td>
+            </tr>
+            <tr>
+              <th>Total Seats</th>
+              <td>40 Seats</td>
+            </tr>
+            <tr>
+              <th>Class Time</th>
+              <td>08:00-10:00</td>
+            </tr>
+            <tr>
+              <th>Tution Fee</th>
+              <td>$290 / Month</td>
+            </tr>
+          </table>
+        </div>
+        <button>Join Now</button><br>
+      </div>
+      <div class="pic3">
+        <div class="t1"><img src="images/7.jpg" alt="" class="img-fluid"></div>
+        <div class="t2">
+          <h3>Drawing Classes</h3>
+          <p></p>
+          <hr>
+          <table class="table-bordered table">
+
+            <tr>
+              <th>Age of Kids</th>
+              <td>3-6 Years</td>
+            </tr>
+            <tr>
+              <th>Total Seats</th>
+              <td>40 Seats</td>
+            </tr>
+            <tr>
+              <th>Class Time</th>
+              <td>08:00-10:00</td>
+            </tr>
+            <tr>
+              <th>Tution Fee</th>
+              <td>$290 / Month</td>
+            </tr>
+          </table>
+        </div>
+        <button>Join Now</button>
+      </div>
+    </div>
+
+  </div> -->
+  <!-- <div class="form">
+    <div class="write">
+      <span>BOOK A SEAT-</span>
+      <h2>Book A Seat For Your Kid</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt minus facilis, delectus officiis quibusdam
+        sit mollitia error culpa quaerat aperiam ea aliquid rem molestiae cupiditate.</p>
+      <i class="fa fa-check" aria-hidden="true">
+        <h3>Lorem ipsum dolor sit.</h3>
+      </i>
+      <i class="fa fa-check" aria-hidden="true">
+        <h3>Lorem ipsum dolor sit.</h3>
+      </i>
+      <i class="fa fa-check" aria-hidden="true">
+        <h3>Lorem ipsum dolor sit.</h3>
+      </i>
+      <br>
+      <button>Book Now</button>
+    </div>
+    <div class="mail">
+      <h1>Book A Seat</h1>
+      <br>
+      <input type="text" placeholder="Your Name"><br><br>
+      <input type="email" placeholder="Your Email"><br><br>
+      <input type="number" placeholder="Select a Class"><br><br>
+      <button>Book Now</button><br><br>
+    </div>
+  </div> -->
+  <h2 class="head2">Our Teachers</h2>
+  <h1 class="head1">Meet Our Teachers</h1>
+  <div class="teacher">
+    <div class="founder">
+      <div class="T1">
+        <img src="images/Director and Principal.jpg" alt="" class="img-fluid center">
+        <h4>Manju Singh</h4>
+        <p>Director & Principal</p>
+      </div>
+      <div class="T3">
+        <h3>Director & Principal</h3>
+        <p>Experience 10 Year's Math PGT Teacher 7 Year's Principal Experience</p>
+        <p>"I am delighted to welcome you to wisdom Progressive school. ”Our Core Aspiration is to provide on
+          Educational Excellence in that every student makes a positive difference during the time with us.</p>
+        <p>In expecting Excellence we insure that children enjoy school in a happy, sate and secure atmosphere designed
+          to fulfil their potential.</p>
+        <p> We also strive to provide a caring supportive and challenging enviourment to the children our & curriculum
+          is carefully framed in such a way to quality education to the children.</p>
+        <p>Wisdom progressive school offers an extraordinary opportunity both in scholastic and co-scholastic areas we
+          have a comprehensive array of co-scholastic activities that encourage our children to develop their talents.
+        </p>
+        <h3>Manju Singh (Director/Principal)</h3>
+        <h4> MSC. (Math) BEd.</h4>
+      </div>
+    </div>
+    <hr>
+    <div class="founder">
+      <div class="T1">
+        <img src="images/Founder and Vice-president.jpg" alt="" class="img-fluid">
+        <h4>Rajesh Singh</h4>
+        <p>Founder & Vice-president</p>
+      </div>
+      <div class="T3">
+        <h3>Founder & Vice-president</h3>
+        <p>At WISDOM PROGRESSIVE SCHOOL, our vision has always been to create a haven of learning, where the pursuit of
+          knowledge intertwines seamlessly with personal growth and character development. Since the inception of our
+          institution, we have strived to provide an environment that fosters curiosity, creativity, and a passion for
+          lifelong learning.</p>
+        <h3>Rajesh Singh (Founder/Vice-President)</h3>
+      </div>
+    </div>
+  </div>
+  <!-- <h2 class="head2">TESTIMONIAL</h2>
+  <h1 class="head1">What Parent Say!</h1> -->
+  <!-- <div class="parent">
+    <div class="p1">
+      <div class="pwrite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius ullam adipisci veniam
+        hic, earum doloremque, quod fugit blanditiis dicta accusantium debitis sed tempora amet.</div>
+      <div class="pimg">
+        <div class="pimg1">
+          <img src="images/testimonial-1.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="pimg2">
+          <h4>Parent Name</h4>
+          <p>Professsion</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="p2">
+      <div class="pwrite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius ullam adipisci veniam
+        hic, earum doloremque, quod fugit blanditiis dicta accusantium debitis sed tempora amet.</div>
+      <div class="pimg">
+        <div class="pimg1">
+          <img src="images/testimonial-2.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="pimg2">
+          <h4>Parent Name</h4>
+          <p>Professsion</p>
+        </div>
+      </div>
+    </div>
+    <div class="p3">
+      <div class="pwrite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius ullam adipisci veniam
+        hic, earum doloremque, quod fugit blanditiis dicta accusantium debitis sed tempora amet.</div>
+      <div class="pimg">
+        <div class="pimg1">
+          <img src="images/testimonial-4.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="pimg2">
+          <h4>Parent Name</h4>
+          <p>Professsion</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- <h2 class="head2">LATEST BLOG</h2>
+  <h1 class="head1">Latest Articles from Blog</h1> -->
+  <!-- <div class="blog">
+    <div class="b1">
+      <img src="images/blog-1.jpg" alt="" class="img-fluid">
+      <h3>Diam amet eos at no eos</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel provident eveniet officiis at minima tenetur nisi,
+        magnam corrupti nulla, excepturi iure. Reprehenderit obcaecati atque consequatur?...</p>
+      <button>Read More</button>
+    </div>
+    <div class="b1">
+      <img src="images/blog-2.jpg" alt="" class="img-fluid">
+      <h3>Diam amet eos at no eos</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel provident eveniet officiis at minima tenetur nisi,
+        magnam corrupti nulla, excepturi iure. Reprehenderit obcaecati atque consequatur?...</p>
+      <button>Read More</button>
+    </div>
+    <div class="b1">
+      <img src="images/blog-3.jpg" alt="" class="img-fluid">
+      <h3>Diam amet eos at no eos</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel provident eveniet officiis at minima tenetur nisi,
+        magnam corrupti nulla, excepturi iure. Reprehenderit obcaecati atque consequatur?...</p>
+      <button>Read More</button>
+    </div>
+  </div> -->
+  <div class="footer">
+    <div class="f1">
+      <h3><a href="index.html">WISDOM PROGRESSIVE SCHOOL</a></h3>
+      <p>Education’s purpose is to replace on
+        empty mind with an open one. At WISDOM PROGRESSIVE SCHOOL , we take pride in
+        fostering a dynamic learning environment that goes beyond traditional education. Our
+        commitment to excellence is reflected in our passionate educators, innovative programs, and
+        a supportive community that encourages every student to thrive.</p>
+      <div class="social">
+        <a href="https://twitter.com/">
+          <div class="twit"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+        </a>
+        <a href="https://www.facebook.com/">
+          <div class="face"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+        </a>
+        <a href="https://in.linkedin.com/">
+          <div class="in"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+        </a>
+        <a href="https://www.instagram.com/">
+          <div class="insta"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+        </a>
+      </div>
+    </div>
+    <div class="f2">
+      <h3>Get in Touch</h3>
+      <div class="detail">
+        <div class="d1">
+          <div id="add"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div id="add1"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+          <div id="add2"><i class="fa fa-phone" aria-hidden="true"></i></div>
+        </div>
+        <div class="d2">
+          <div class="head4">
+            <h4>Address</h4>
+            <p>Near Petrol Pump Ganga ganj Gegason Lalganj - Raebareli</p>
+          </div>
+          <div class="head4">
+            <h4>Email</h4>
+            <p>wisdomprogressiveschool9936@gmail.com</p>
+          </div>
+          <div class="head4">
+            <h4>Phone</h4>
+            <p>9936059531, 7754848190</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="f3">
+      <h3>Quick Links</h3>
+      <li>><a href="index.html"> Home</a></li>
+      <li>><a href="tabout.html"> About Us</a></li>
+      <li>><a href="infra.html">Infrastructure</a></li>
+      <li>><a href="Admission.html">Admission</a></li>
+      <li>><a href="facilities.html">Facilities</a></li>
+      <li>><a href="tcontact.html">Contact</a></li>
+    </div>
+    <div class="f4">
+      <h3>Newsletter</h3>
+      <input type="text" placeholder="Your Name">
+      <br><br>
+      <input type="email" placeholder="Your Email"><br><br>
+      <button>Submit Now</button>
+    </div>
+  </div>
+
+
+
+  <script src="js/try.js"></script>
+  
+</body>
+
+</html>

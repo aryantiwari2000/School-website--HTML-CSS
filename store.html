@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+    width: 100%;
+    height: 500px;
+    background-color: #17a2b8;
+    height: 200px;
+    /* display: flex;
+    justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}
+
+#first {
+    width: 50%;
+    height: 70%;
+    padding-left: 50px;
+    /* border: 2px solid black; */
+    font-family: cursive;
+    color: white;
+    margin-top: 5%;
+}
+
+#first h2 {
+    font-size: 2vw;
+}
+
+#first h1 {
+    font-size: 4vw;
+}
+
+#first p {
+    font-size: 1vw;
+}
+
+#second {
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+#second img {
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#first button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #00394f;
+    color: white;
+    border: none;
+}
+@media (max-width:849px) {
+    #header {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 500px;
+        justify-content:start;
+        background-color: #17a2b8;
+    }
+
+    #first {
+        width: 100%;
+        height:30%;
+        color: white;
+        margin-top: 0%;
+        /* border: 2px solid black; */
+         padding-left:0px;
+    }
+
+    #second {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        /* border: 2px solid black; */
+    }
+
+    #second img {
+        height: 100%;
+        /* margin-left:50px; */
+    }
+
+    #first h2 {
+        font-size: 2vh;
+        text-align: center;
+    }
+
+    #first h1 {
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    #first p {
+        font-size: 1vh;
+        text-align: center;
+    }
+
+    #first button {
+        width: 100%;
+        font-size: 2vh;
+    }
+}
+    </style>
+</head>
+<body>
+   <!-- <div id="header">
+    <div id="first">
+      <h2>Kids Education Center</h2>
+      <h1>New Approach to Kids Education</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate iusto eligendi mollitia corrupti
+        atque, fuga, officia culpa quaerat, voluptates esse nostrum? Modi ea iste deserunt, debitis natus assumenda
+        ullam.</p>
+      <button>Learn more</button>
+    </div>
+
+    <div id="second">
+      <img src="images/1.jpg" class="img-fluid">
+    </div>
+  </div> -->
+  <!-- <div id="third">
+    <div id="photo">
+      <img src="images/2.jpg">
+    </div>
+    <div id="text">
+      <span>Learn About Us--</span>
+      <h2>Best School For Students</h2>
+      <h3> Director/Principal Message</h3>
+      <p>Experience 10 Year's Math PGT Teacher 7 Year's Principal Experience</p>
+      <h4>Manju Singh  (Director/Principal)</h4>
+      <h5>MSC. (Math) BEd.</h5>
+      <div id="inner">
+        <div id="in1">
+          <img src="images/about-2.jpg" class="img-fluid">
+        </div>
+        <div id="in2">
+          <ul class="list">
+            <hr>
+            <li class="group">Lorem ipsum dolor sit amet consectetur.</li>
+            <hr>
+            <li class="group">Lorem ipsum dolor sit amet consectetur.</li>
+            <hr>
+          </ul>
+        </div>
+      </div>
+      <button id="btn1">Learn More</button>
+    </div>
+  </div>
+  <br><br>
+  <div class="four">
+    <h2>Popular Classes</h2>
+    <h1>Classes for Your Students</h1><br>
+    <div class="picdiv">
+      <div class="pic1">
+        <div class="t1"><img src="images/6.jpg" alt="" class="img-fluid"></div>
+        <div class="t2">
+          <h3>Computer Classes</h3>
+          <p> </p>
+          <hr>
+          <table class="table-bordered table">
+
+            <tr>
+              <th>Age of Kids</th>
+              <td>3-6 Years</td>
+            </tr>
+            <tr>
+              <th>Total Seats</th>
+              <td>40 Seats</td>
+            </tr>
+            <tr>
+              <th>Class Time</th>
+              <td>08:00-10:00</td>
+            </tr>
+            <tr>
+              <th>Tution Fee</th>
+              <td>$290 / Month</td>
+            </tr>
+          </table>
+        </div>
+        <button>Join Now</button><br>
+      </div>
+      <div class="pic2">
+        <div class="t1"><img src="images/3.jpg" alt="" class="img-fluid"></div>
+        <div class="t2">
+          <h3>Science and Innovation Labs:</h3>
+          <p></p>
+          <hr>
+          <table class="table-bordered table">
+
+            <tr>
+              <th>Age of Kids</th>
+              <td>3-6 Years</td>
+            </tr>
+            <tr>
+              <th>Total Seats</th>
+              <td>40 Seats</td>
+            </tr>
+            <tr>
+              <th>Class Time</th>
+              <td>08:00-10:00</td>
+            </tr>
+            <tr>
+              <th>Tution Fee</th>
+              <td>$290 / Month</td>
+            </tr>
+          </table>
+        </div>
+        <button>Join Now</button><br>
+      </div>
+      <div class="pic3">
+        <div class="t1"><img src="images/7.jpg" alt="" class="img-fluid"></div>
+        <div class="t2">
+          <h3>Drawing Classes</h3>
+          <p></p>
+          <hr>
+          <table class="table-bordered table">
+
+            <tr>
+              <th>Age of Kids</th>
+              <td>3-6 Years</td>
+            </tr>
+            <tr>
+              <th>Total Seats</th>
+              <td>40 Seats</td>
+            </tr>
+            <tr>
+              <th>Class Time</th>
+              <td>08:00-10:00</td>
+            </tr>
+            <tr>
+              <th>Tution Fee</th>
+              <td>$290 / Month</td>
+            </tr>
+          </table>
+        </div>
+        <button>Join Now</button>
+      </div>
+    </div>
+
+  </div> -->
+  <!-- <div class="form">
+    <div class="write">
+      <span>BOOK A SEAT-</span>
+      <h2>Book A Seat For Your Kid</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt minus facilis, delectus officiis quibusdam
+        sit mollitia error culpa quaerat aperiam ea aliquid rem molestiae cupiditate.</p>
+      <i class="fa fa-check" aria-hidden="true">
+        <h3>Lorem ipsum dolor sit.</h3>
+      </i>
+      <i class="fa fa-check" aria-hidden="true">
+        <h3>Lorem ipsum dolor sit.</h3>
+      </i>
+      <i class="fa fa-check" aria-hidden="true">
+        <h3>Lorem ipsum dolor sit.</h3>
+      </i>
+      <br>
+      <button>Book Now</button>
+    </div>
+    <div class="mail">
+      <h1>Book A Seat</h1>
+      <br>
+      <input type="text" placeholder="Your Name"><br><br>
+      <input type="email" placeholder="Your Email"><br><br>
+      <input type="number" placeholder="Select a Class"><br><br>
+      <button>Book Now</button><br><br>
+    </div>
+  </div> --> 
+</body>
+</html>
